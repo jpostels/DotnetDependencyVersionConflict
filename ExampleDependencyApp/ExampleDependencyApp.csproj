@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryA\LibraryA.csproj" />
+    <ProjectReference Include="..\LibraryB\LibraryB.csproj" />
+  </ItemGroup>
+
 </Project>
